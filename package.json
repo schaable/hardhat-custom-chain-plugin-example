@@ -1,0 +1,23 @@
+{
+  "name": "hardhat-custom-chain-plugin-example",
+  "version": "0.0.1",
+  "description": "This is an example of a Hardhat plugin that adds a custom chain.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc --build ."
+  },
+  "license": "MIT",
+  "author": "Nomic Foundation",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-verify": "^2.0.7",
+    "@types/node": "^18.0.0",
+    "hardhat": "^2.22.6",
+    "ts-node": "^10.8.0",
+    "typescript": "~5.0.0"
+  },
+  "peerDependencies": {
+    "@nomicfoundation/hardhat-verify": "^2.0.7",
+    "hardhat": "^2.22.6"
+  }
+}
